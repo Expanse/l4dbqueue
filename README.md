@@ -5,6 +5,7 @@ A laravel 4 queue driver using any RDBMS.
 
 Fully functional and 100% native. No special artisan commands for firing jobs required or provided. 
 
+[![Build Status](https://travis-ci.org/Expanse/l4dbqueue.svg)](https://travis-ci.org/Expanse/l4dbqueue)
 [![Packagist version](http://img.shields.io/packagist/v/Expanse/l4dbqueue.svg)](https://packagist.org/packages/Expanse/l4dbqueue)
 [![Total downloads](http://img.shields.io/packagist/dt/Expanse/l4dbqueue.svg)](https://packagist.org/packages/Expanse/l4dbqueue)
 
