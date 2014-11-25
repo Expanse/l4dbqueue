@@ -1,7 +1,7 @@
-<?php namespace Shamiao\L4mysqlqueue\Queue\Connectors;
+<?php namespace Expanse\L4dbqueue\Queue\Connectors;
 
 use Illuminate\Queue\Connectors\ConnectorInterface;
-use Shamiao\L4mysqlqueue\Queue\MysqlQueue;
+use Expanse\L4dbqueue\Queue\MysqlQueue;
 
 class MysqlConnector implements ConnectorInterface {
 

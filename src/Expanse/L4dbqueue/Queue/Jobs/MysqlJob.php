@@ -1,4 +1,4 @@
-<?php namespace Shamiao\L4mysqlqueue\Queue\Jobs;
+<?php namespace Expanse\L4dbqueue\Queue\Jobs;
 
 use Closure;
 use Exception;

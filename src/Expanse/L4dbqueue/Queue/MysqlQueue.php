@@ -1,4 +1,4 @@
-<?php namespace Shamiao\L4mysqlqueue\Queue;
+<?php namespace Expanse\L4dbqueue\Queue;
 
 use DateTime;
 use Carbon\Carbon;

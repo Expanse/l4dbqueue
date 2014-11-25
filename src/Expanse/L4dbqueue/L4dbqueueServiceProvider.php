@@ -1,8 +1,8 @@
-<?php namespace Shamiao\L4mysqlqueue;
+<?php namespace Expanse\L4dbqueue;
 
 use Illuminate\Support\ServiceProvider;
 
-class L4mysqlqueueServiceProvider extends ServiceProvider {
+class L4dbqueueServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
@@ -18,7 +18,7 @@ class L4mysqlqueueServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('shamiao/l4mysqlqueue');
+		$this->package('Expanse/L4dbqueue');
         $manager = $this->app['queue'];
 		$manager->addConnector('mysql', function()
 		{

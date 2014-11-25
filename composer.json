@@ -1,18 +1,19 @@
 {
-    "name": "shamiao/l4mysqlqueue",
-    "description": "A laravel 4 queue driver using MySQL database, developed for small websites. ",
+    "name": "Expanse/l4dbqueue",
+    "description": "A laravel 4 queue driver using any RDBMS.",
     "keywords": [
         "laravel",
         "queue",
-        "mysql"
+        "mysql",
+		"postgres"
     ],
-    "homepage": "https://github.com/shamiao/l4mysqlqueue",
+    "homepage": "https://github.com/Expanse/l4dbqueue",
     "license": "MIT",
     "authors": [
         {
-            "name": "SHA Miao",
-            "email": "shamiaoc@gmail.com",
-            "homepage": "http://miao.im"
+            "name": "Glen Solsberry",
+            "email": "glen@expansesoftware.com",
+            "homepage": "http://www.expansesoftware.com"
         }
     ],
     "require": {
@@ -25,7 +26,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "Shamiao\\L4mysqlqueue\\": "src/"
+            "Expanse\\L4dbqueue\\": "src/"
         }
     },
     "minimum-stability": "stable"

@@ -1,12 +1,12 @@
-l4mysqlqueue
+l4dbqueue
 ============
 
-A laravel 4 queue driver using MySQL database, developed for small websites on shared hosting. 
+A laravel 4 queue driver using any RDBMS. 
 
 Fully functional and 100% native. No special artisan commands for firing jobs required or provided. 
 
-[![Packagist version](http://img.shields.io/packagist/v/shamiao/l4mysqlqueue.svg)](https://packagist.org/packages/shamiao/l4mysqlqueue)
-[![Total downloads](http://img.shields.io/packagist/dt/shamiao/l4mysqlqueue.svg)](https://packagist.org/packages/shamiao/l4mysqlqueue)
+[![Packagist version](http://img.shields.io/packagist/v/Expanse/l4dbqueue.svg)](https://packagist.org/packages/Expanse/l4dbqueue)
+[![Total downloads](http://img.shields.io/packagist/dt/Expanse/l4dbqueue.svg)](https://packagist.org/packages/Expanse/l4dbqueue)
 
 Features
 ------------
@@ -24,13 +24,13 @@ Installation
 Add dependency to your `composer.json` and run `composer update`: 
 
 ```
-"shamiao/l4mysqlqueue": "~1.0"
+"Expanse/l4dbqueue": "~1.0"
 ```
 
 Add service provider to configuration value `app.providers` in `config/app.php`: 
 
 ```
-'Shamiao\L4mysqlqueue\L4mysqlqueueServiceProvider'
+'Expanse\l4dbqueue\l4dbqueueServiceProvider'
 ```
 
 Setup `mysql` driver in `config/queue.php`:
@@ -48,7 +48,7 @@ Setup `mysql` driver in `config/queue.php`:
 Run database migrations of this package before using it: 
 
 ```
-php artisan migrate --package="shamiao/l4mysqlqueue"
+php artisan migrate --package="Expanse/l4dbqueue"
 ```   
 
 
