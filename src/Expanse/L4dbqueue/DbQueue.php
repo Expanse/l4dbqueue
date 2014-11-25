@@ -1,4 +1,4 @@
-<?php namespace Expanse\L4dbqueue\Queue;
+<?php namespace Expanse\L4dbqueue;
 
 use DateTime;
 use Carbon\Carbon;
@@ -7,7 +7,7 @@ use Illuminate\Queue\Queue;
 use Illuminate\Queue\QueueInterface;
 use ErrorException;
 
-class MysqlQueue extends Queue implements QueueInterface {
+class DbQueue extends Queue implements QueueInterface {
 
     /**
      * Name of queue table.
